@@ -25,3 +25,28 @@ It's easy:
 - ### [Lib](./src/lib)
 - ### [Types](./src/types)
 - ### [App-Router | Pages](./src/app)
+
+# ./src Files
+
+ - [web3 configuration](./src/config.ts)
+ - [connect wallet configuration](./src/connectWallet.ts)
+ - [supported languages type](./src/languages.ts)
+ - [app router middleware](./src/middleware.ts)
+
+
+# Build Setup
+
+```bash
+# install dependencies
+$ yarn
+# development mode
+$ yarn dev
+# build
+$ yarn build
+# production mode
+$ yarn start
+```
+
+### Translations :earth_americas:
+
+- [Persian version](./src/locales/fa.ts)
